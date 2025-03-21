@@ -9,3 +9,11 @@ vim.keymap.set("n", "<space>uB", "<CMD>TransparentToggle<CR>", { desc = "Toggle 
 vim.keymap.set("v", "<leader>p", '"_dP', { desc = "Paste without yank" })
 
 vim.keymap.set("n", "n", "nzz") -- Center the result found
+
+vim.keymap.set("n", "<leader>z", "<CMD>NoNeckPain<CR>", { desc = "Toggle Zen mode" })
+
+vim.keymap.set("n", "gV", "`[v`]", { desc = "Reselect previous yank area" })
+
+vim.keymap.set("n", "*", "*zz")
+
+vim.keymap.set("n", "'.", "'.zz")
